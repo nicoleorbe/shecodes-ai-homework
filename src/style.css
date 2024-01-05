@@ -19,9 +19,7 @@ html {
   margin: 0;
   padding: 0;
   color: #333;
-
   background-color: var(--green-white);
-  text-align: center;
 }
 
 h1 {
@@ -29,6 +27,7 @@ h1 {
   font-size: 36px;
   line-height: 1.5;
   color: var(--rose);
+  text-align: center;
 }
 
 .container {
@@ -44,6 +43,7 @@ h1 {
   margin: 0 auto;
   max-width: 80%;
   justify-content: center;
+  text-align: center;
 }
 
 .prompt {
@@ -72,7 +72,14 @@ h1 {
 }
 
 .poem {
-  margin: 30px auto;
+  font-size: 14px;
+  background-color: var(--white);
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid var(--rose);
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  width: 80%;
+  margin: 20px auto;
 }
 
 footer {
@@ -82,6 +89,7 @@ footer {
   left: 0;
   width: 100%;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 footer a {
