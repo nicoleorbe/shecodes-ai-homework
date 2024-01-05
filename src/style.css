@@ -1,0 +1,88 @@
+:root {
+  --green: #66bfbf;
+  --green-white: #eaf6f6;
+  --white: #fcfefe;
+  --rose: #f76b8a;
+  --button-hover-transiton: all 200ms ease-in-out;
+  --button-border-radius: 30px;
+  --box-shadow: 10px 10px 20px rgba(109, 108, 109, 0.3);
+}
+
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--green-white);
+  text-align: center;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+.container-input {
+  background-color: var(--green);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  margin: 0 auto;
+  max-width: 80%;
+  justify-content: center;
+}
+
+.prompt {
+  border: none;
+  border-radius: var(--button-border-radius);
+  font-size: 18px;
+  padding: 8px 20px;
+  width: 50%;
+  margin-right: 10px;
+}
+
+.submit {
+  border: none;
+  background-color: #fcfefe;
+  padding: 10px 20px;
+  width: 100px;
+  font-weight: 600;
+  border-radius: var(--button-border-radius);
+  transition: var(--button-hover-transiton);
+}
+
+.submit:hover {
+  background-color: #f76b8a;
+  color: var(--white);
+}
+
+.poem {
+  margin: 30px auto;
+}
+
+footer {
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: var(--rose);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  color: var(--green);
+}
